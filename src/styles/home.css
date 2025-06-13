@@ -138,6 +138,11 @@
 .logo-mobile{
   display: none;
 }
+.svg-3d {
+  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 1.4));
+  transition: transform 0.3s ease;
+}
+
 /* Bounce keyframes */
 @keyframes bounce {
   0%, 100% {
