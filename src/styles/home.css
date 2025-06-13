@@ -310,4 +310,8 @@
       width: 100px;
       height: 100px;
     }
+    .svg-3d {
+    filter: drop-shadow(4px 4px 6px rgba(0, 0, 0, 0.4));
+    transition: transform 0.3s ease;
+  }
 }
