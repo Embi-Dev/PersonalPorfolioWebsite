@@ -10,8 +10,7 @@ export default function TechStack() {
         "CSS",
         "Javascript",
         "CSS frameworks: ( Bootstrap, Tailwind )",
-        "Expo",
-            "V0 by vercel",
+        "V0 by vercel",
         "Lovable"
     ];
     const backEndList = [
@@ -29,7 +28,9 @@ export default function TechStack() {
         "Restful API",
         "microservices",
         "web automation and scraping (Puppeteer and selenium)",
-        "LLM API's, Agents and RAG framework(embeddings, milvus database)"
+        "LLM API's, Agents and RAG framework(embeddings, milvus database)",
+        "Expo ( Mobile Applictions ) ",
+        "Electron.js ( Desktop Applications )"
     ]
     return (
         <section id="tech-stack" className="section-container" style={{ scrollMarginTop: "100px"}}>

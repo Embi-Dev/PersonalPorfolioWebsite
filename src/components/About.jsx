@@ -26,7 +26,7 @@ export default function About() {
                         <div className="dot"></div>
                         <div className="bar gradient-1 long"></div>
                     </div>
-                    <p className="about-me-content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione eius ducimus illo accusamus laborum iusto dicta dolorem perspiciatis praesentium itaque facilis, corporis quod reiciendis excepturi doloremque. Iure recusandae reprehenderit dolore!</p>
+                    <p className="about-me-content">I’m a full-stack developer passionate about building clean, responsive web applications. I enhance my workflow by leveraging AI tools for faster development, smarter debugging, and idea exploration—helping me focus more on creativity and problem-solving.</p>
                     <div className="bars-wrapper top bar-center">
                         <div className="bar gradient-4 medium"></div>
                         <div className="bar gradient-2 small"></div>
