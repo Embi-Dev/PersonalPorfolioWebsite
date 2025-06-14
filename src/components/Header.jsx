@@ -11,11 +11,16 @@ export default function Header() {
   const handleLinkClick = () => {
     setMenuOpen(false); // close menu when link is clicked
   };
-
+  const onLogoClick = () => {
+    const home = document.getElementById("home");
+		if (home) {
+			home.scrollIntoView({ behavior: "smooth" });
+		}
+  }
   return (
     <nav className="navigation-main-container">
       <div className="navigation-sub-container gradient-3">
-        <div className="logo">Embi</div>
+        <div className="logo" onClick={onLogoClick}>Embi</div>
         <ul className={`nav-links ${menuOpen ? "active" : ""}`}>
           <li><a href="#home" onClick={handleLinkClick}>Home</a></li>
              <li><a href="#about" onClick={handleLinkClick}>About</a></li>

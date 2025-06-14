@@ -1,12 +1,19 @@
 import { useEffect, useRef } from 'react'
 import Header from './components/Header'
 import Home from './components/Home'
-import Projects from './components/Experience'
 import TechStack from './components/TechStack'
 import About from './components/About'
+import Experience from './components/Experience'
+import Projects from './components/Projects'
+import Contacts from './components/Contacts'
+import FixedIconLayer from './components/FixedIconLayer'
 
 function App() {
 	useEffect(() => {
+		if (window.location.hash) {
+			const url = window.location.href.split('#')[0];
+			window.history.replaceState(null, '', url);
+		}
 		const home = document.getElementById("home");
 		if (home) {
 			home.scrollIntoView({ behavior: "smooth" });
@@ -19,9 +26,12 @@ function App() {
 			<div className='main-container'>
 				<Home />
 				<About />
-				<Projects />
+				<Experience />
 				<TechStack />
+				<Projects />
+				<Contacts />
 			</div>
+			<FixedIconLayer />	
 		</div>
 	)
 }

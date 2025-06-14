@@ -60,7 +60,7 @@ export default function Home() {
                 </div>
             </div>
         </div>
-        <div className="bouncing-code left  svg-3d">&lt;/&gt;</div>
+        <div className="bouncing-code left  svg-3d logo-mobile">&lt;/&gt;</div>
     </section>
   );
 }
