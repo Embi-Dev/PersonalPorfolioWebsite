@@ -11,7 +11,7 @@ export default function Projects() {
     }
     const projects = [
         {
-            icon: <img src="./splash.png"/>,
+            icon: <img src="./splash.png" style={{ width : "150px", height: "150px"}}/>,
             projectName: "Foodietection",
             projectDescription: "Developed as part of our college thesis, this mobile application detects Filipino food items and classifies them into 'Go', 'Grow', or 'Glow' categories using MobileNetV3. It also includes a Fuzzy Logic-based recommender system to provide users with tailored nutrition insights and promote healthy eating habits.",
             github: "https://github.com/jericholongabela/foodietection-expo.git",
