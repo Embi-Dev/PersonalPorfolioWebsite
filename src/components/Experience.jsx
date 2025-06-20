@@ -35,7 +35,7 @@ export default function Experience () {
                         <div style={{marginRight: "10px"}} className="bar gradient-7 small"></div>
                         AghimJuan Inc. (OJT) – Backend Developer
                     </h4>
-                    <small>Aug 2021 – Oct 2021</small>
+                    <small>Aug 2022 – Oct 2022</small>
                     <p>
                     I worked as a backend developer during my on-the-job training. Our tech stack included PHP and Laravel for the backend, and HTML, CSS, and JavaScript for the frontend. This two-month internship was part of the required curriculum at my university.
                     </p>
@@ -43,7 +43,7 @@ export default function Experience () {
                         <div style={{marginRight: "10px"}} className="bar gradient-9 small"></div>
                         ASG Platform – Full-Stack Developer
                     </h4>
-                    <small>Aug 2022 – March 2025</small>
+                    <small>Aug 2023 – March 2025</small>
                     <p>
                     I worked as a full-stack developer at ASG Platform as part of their Residential Program for nearly two years. I built full-stack applications using Node.js and Python for the backend, and React and CSS for the frontend. I also developed microservices for a CRM system and an AI-powered customer service application.
                     </p>
